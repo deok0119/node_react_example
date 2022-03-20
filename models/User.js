@@ -40,4 +40,4 @@ const userSchema = mongoose.Schema({
 
 const User = mongoose.model('User', userSchema)    //const 모델명 = momgoose.model('이름', 감쌀Schema)
 
-module.exports = {User}    //외부파일에서 사용을 위한 모델 export
+module.exports = { User }    //외부파일에서 사용을 위한 모델 export
