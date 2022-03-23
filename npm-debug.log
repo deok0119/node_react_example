@@ -1,0 +1,29 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/root/.nvm/v0.10.33/bin/node',
+1 verbose cli   '/root/.nvm/v0.10.33/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'backend' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose run-script [ 'prebackend', 'backend', 'postbackend' ]
+5 info prebackend boiler-plate@1.0.0
+6 info backend boiler-plate@1.0.0
+7 verbose unsafe-perm in lifecycle true
+8 info boiler-plate@1.0.0 Failed to exec backend script
+9 error boiler-plate@1.0.0 backend: `nodemon index.js`
+9 error Exit status 8
+10 error Failed at the boiler-plate@1.0.0 backend script.
+10 error This is most likely a problem with the boiler-plate package,
+10 error not with npm itself.
+10 error Tell the author that this fails on your system:
+10 error     nodemon index.js
+10 error You can get their info via:
+10 error     npm owner ls boiler-plate
+10 error There is likely additional logging output above.
+11 error System Linux 4.4.0-1128-aws
+12 error command "/root/.nvm/v0.10.33/bin/node" "/root/.nvm/v0.10.33/bin/npm" "run" "backend"
+13 error cwd /workspace/Node_React/boiler-plate
+14 error node -v v0.10.33
+15 error npm -v 1.4.28
+16 error code ELIFECYCLE
+17 verbose exit [ 1, true ]
