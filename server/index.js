@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const port = 3000
+const port = 5000
 const bodyParser = require('body-parser')
 const cookieParser = require('cookie-parser')
 
@@ -22,6 +22,8 @@ mongoose.connect(config.mongoURI)
 
 app.get('/', (req, res) => res.send('hello world! 안녕하세요!'))
 //app.메소드('/엔드포인트', 콜백Func(input, output)=>{ })
+
+app.get('/api/hello', (req, res) => res.send('안녕하세요~'))
 
 app.post('/api/users/register', (req, res)=>{
     //회원 가입 할 때 필요한 정보들을 client에서 가져오면
