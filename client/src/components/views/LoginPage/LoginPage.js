@@ -3,6 +3,7 @@ import React, { useState} from 'react'
 import {useDispatch} from'react-redux'
 import {loginUser} from '../../../_actions/user_actions'
 
+
 function LoginPage(props){
     const navigate = useNavigate()
     const dispatch = useDispatch()
@@ -50,7 +51,7 @@ function LoginPage(props){
                 <input type="password" value={Password} onChange={onPasswordHandler} />
                 
                 <br/>
-                <button>
+                <button type="submit">
                     login
                 </button>
                 
